@@ -1,4 +1,5 @@
  import React from 'react';
+import Best from './Components/Best';
 import Category from './Components/Category';
 import { SliderData } from './Components/Data/SliderData';
  
@@ -11,6 +12,7 @@ export function Home() {
          <Header /> 
          <Category />
          <MainVisual slides={SliderData}/>
+         <Best />
          </>
      )
  }

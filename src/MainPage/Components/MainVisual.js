@@ -23,18 +23,21 @@ const MainVisual = ({ slides }) => {
      if(!Array.isArray(slides) || slides.length <= 0) {
          return null;
      }
+
      return (
        <MainVsiualWrapper>
            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
            <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
            {SliderData.map((slide,index) => {
                return (
-                   <div className={index === current ? 'slide active' : 'slide'} key={index}>
+                   <div 
+                   className={index === current ? 'slide active' : 'slide'} 
+                   key={index}
+                   >
                        {index === current && (
                            // eslint-disable-next-line jsx-a11y/img-redundant-alt
-                           <img src={slide.image} alt='traval image' className={classNames(
-                               'image'
-                           )} />
+                           <img src={slide.image} alt='traval image' 
+                           className={classNames('image')} />
                        )}
                </div>
              )
