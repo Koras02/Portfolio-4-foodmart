@@ -1,4 +1,5 @@
-import React from 'react';
+import React  from 'react';
+import { useHistory } from 'react-router-dom';
 import {
     HeaderWrapper,
     HeaderWrapperH1,
@@ -9,11 +10,23 @@ import {
 } from './HeaderStyle'
 
 export function Header() {
+    const history = useHistory();
+    const handlePush = (e) => {
+       if (e.key === "Enter") {
+         history.push('/Search')
+       } if(e.type === "") {
+         history.push('/')
+       }
+       if (e.key === "A") {
+         alert('검색어를 입력하세요')
+       }
+     }
+ 
      return (
        <HeaderWrapper>
          <HeaderWrapperH>
            <HeaderWrapperH1 to="/">FOOD & SHOP</HeaderWrapperH1>
-           <HeaderWrapperSarch type="search" value="식자재를 빠르게 검색 해보세요">
+           <HeaderWrapperSarch type="search" onKeyPress={handlePush} required Enter={"Enter"}>
            </HeaderWrapperSarch>
            <HeaderWrapperIcon>3</HeaderWrapperIcon>
            <HeaderWrapperIcon>2</HeaderWrapperIcon>
@@ -24,7 +37,7 @@ export function Header() {
            </HeaderWrapperH>  
        </HeaderWrapper>
      );
- }
+   }
 
 
  export default Header;

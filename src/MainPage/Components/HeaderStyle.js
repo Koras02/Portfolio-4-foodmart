@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const HeaderWrapperH = styled.div`
-   margin:0px auto;
+   margin:10px auto;
    border:1px solid #000;
    overflow:hidden;
 `
