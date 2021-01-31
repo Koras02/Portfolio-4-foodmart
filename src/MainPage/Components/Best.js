@@ -10,7 +10,12 @@ import {
     BestDescriptionForm
 } from './BestStyle'
 
-function Best() {
+const homePayData = ({
+    pay,
+    pay2,
+    pay3,
+    pay4,
+}) => {
      return (
         <BestFoodWrapper>
             <BestWrapperH1>베스트 상품</BestWrapperH1>
@@ -28,14 +33,14 @@ function Best() {
             <BestDescriptionD>상품설명</BestDescriptionD>
             <BestDescriptionD>상품설명</BestDescriptionD>
             <BestDescriptionD>상품설명</BestDescriptionD>
-            <BestDescriptionP>가격</BestDescriptionP>
-            <BestDescriptionP>가격</BestDescriptionP>
-            <BestDescriptionP>가격</BestDescriptionP>
-            <BestDescriptionP>가격</BestDescriptionP>
+            <BestDescriptionP>{pay}</BestDescriptionP>
+            <BestDescriptionP>{pay2}</BestDescriptionP>
+            <BestDescriptionP>{pay3}</BestDescriptionP>
+            <BestDescriptionP>{pay4}</BestDescriptionP>
             </BestDescriptionForm>
-        </BestFoodWrapper>
-     );
+        </BestFoodWrapper> 
+        );
  }
 
 
- export default Best;
+ export default homePayData;

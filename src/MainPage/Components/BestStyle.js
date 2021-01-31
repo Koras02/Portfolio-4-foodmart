@@ -2,11 +2,12 @@ import styled from 'styled-components';
 
 export const BestFoodWrapper = styled.div`
   width:100%; 
-  height:800px;
+  height:700px;
   border:1px solid #000;
   background:#fff;
   overflow:hidden;
   display:block;
+  border-bottom:1px solid #000;
 `;
 
 export const BestWrapperH1 = styled.div`
@@ -105,7 +106,6 @@ export const BestDescriptionD = styled.div`
     display:inline;
     position:relative;
     text-align:center;
-    position:relative;
     left:50%;
     top:120px;
     margin-left:-842px;
@@ -113,5 +113,11 @@ export const BestDescriptionD = styled.div`
     font:bold 18px/24px arial;
 `
 export const BestDescriptionP = styled.div`
- 
-    `;
+    display:inline;
+    position:relative;
+    text-align:center;
+    left:50%;
+    top:180px;
+    margin-left:-500px;
+    margin-right:765px;
+`;
