@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Koras02/Portfolio-4-foodmart/static/css/main.e3a63a72.chunk.css",
+    "main.js": "/Koras02/Portfolio-4-foodmart/static/js/main.b8706b2c.chunk.js",
+    "main.js.map": "/Koras02/Portfolio-4-foodmart/static/js/main.b8706b2c.chunk.js.map",
+    "runtime-main.js": "/Koras02/Portfolio-4-foodmart/static/js/runtime-main.fdf6eb6d.js",
+    "runtime-main.js.map": "/Koras02/Portfolio-4-foodmart/static/js/runtime-main.fdf6eb6d.js.map",
+    "static/js/2.e9ee15e2.chunk.js": "/Koras02/Portfolio-4-foodmart/static/js/2.e9ee15e2.chunk.js",
+    "static/js/2.e9ee15e2.chunk.js.map": "/Koras02/Portfolio-4-foodmart/static/js/2.e9ee15e2.chunk.js.map",
+    "static/js/3.4b91d6bb.chunk.js": "/Koras02/Portfolio-4-foodmart/static/js/3.4b91d6bb.chunk.js",
+    "static/js/3.4b91d6bb.chunk.js.map": "/Koras02/Portfolio-4-foodmart/static/js/3.4b91d6bb.chunk.js.map",
+    "index.html": "/Koras02/Portfolio-4-foodmart/index.html",
+    "static/css/main.e3a63a72.chunk.css.map": "/Koras02/Portfolio-4-foodmart/static/css/main.e3a63a72.chunk.css.map",
+    "static/js/2.e9ee15e2.chunk.js.LICENSE.txt": "/Koras02/Portfolio-4-foodmart/static/js/2.e9ee15e2.chunk.js.LICENSE.txt",
+    "static/media/1.10d58dc3.png": "/Koras02/Portfolio-4-foodmart/static/media/1.10d58dc3.png",
+    "static/media/2.ac8e248e.png": "/Koras02/Portfolio-4-foodmart/static/media/2.ac8e248e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdf6eb6d.js",
+    "static/js/2.e9ee15e2.chunk.js",
+    "static/css/main.e3a63a72.chunk.css",
+    "static/js/main.b8706b2c.chunk.js"
+  ]
+}
